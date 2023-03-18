@@ -1,16 +1,16 @@
 package org.example;
 
 public class UserClient {
-    private User user;
+    private UserAuthData userAuthData;
     private String accessToken;
     private boolean success;
 
-    public User getUser() {
-        return user;
+    public UserAuthData getUser() {
+        return userAuthData;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setUser(UserAuthData userAuthData) {
+        this.userAuthData = userAuthData;
     }
 
     public String getAccessToken() {
